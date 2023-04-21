@@ -9,7 +9,7 @@ function Experiences() {
     return (
         <div className="container mx-auto px-4 mb-8">
             <h2 className='text-3xl dark:text-white text-black font-semibold mb-8 md:text-left text-center'>DENEYİMLERİM</h2>
-            <div className='flex md:flex-row flex-col'>
+            <div className='flex flex-wrap'>
                 {
                     ExperiencesData.map((ExperiencesData, key) => {
                         return (
