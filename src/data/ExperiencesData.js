@@ -45,7 +45,7 @@ const ExperiencesData = [
         image: ReactJS,
     },
     {
-        name: 'Tailwind',
+        name: 'Tailwind CSS',
         startTime: [2, 2023],
         image: TailwindCSS,
     },

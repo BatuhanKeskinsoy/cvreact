@@ -27,14 +27,14 @@ function Header() {
           <div className="flex items-center justify-between w-full md:w-max relative">
             <div className='order-1'>
               <Link to="/" onClick={mobileNavClose}>
-                <img src={logo} alt="Logo" className='max-h-16 h-16 py-3 dark:invert-custom-dark invert-custom-white' />
+                <img src={logo} alt="Logo" className='max-h-16 h-16 py-2 dark:invert-custom-dark invert-custom-white' />
               </Link>
             </div>
             <div className="flex order-2 items-center">
               <button onClick={mobileNavToggle} className={isActive ? 'dark:bg-yellow-400 bg-violet-700 rounded-full shadow-customMd dark:shadow-yellow-400 shadow-violet-700 order-3' : 'order-3'}>
                 <HiBars3BottomRight className={isActive ?
-                  'text-5xl block md:hidden transition-all p-2 shadow rounded-full dark:text-black text-white dark:active:bg-yellow-400 active:bg-violet-700 dark:active:text-black active:text-white dark:active:shadow-yellow-400 active:shadow-violet-700' :
-                  'text-5xl block md:hidden transition-all p-2 dark:bg-customSecondary-900 bg-white shadow rounded-full dark:text-white text-black shadow-gray-500'}
+                  'text-5xl block md:hidden transition-all p-2 shadow-customSm rounded-full dark:text-black text-white dark:active:bg-yellow-400 active:bg-violet-700 dark:active:text-black active:text-white dark:active:shadow-yellow-400 active:shadow-violet-700' :
+                  'text-5xl block md:hidden transition-all p-2 dark:bg-customSecondary-900 bg-white shadow-customSm rounded-full dark:text-white text-black shadow-gray-500'}
                 />
               </button>
               <Theme />
