@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className='dark:bg-customSecondary-900 bg-gray-100 md:pb-0 sm:pb-[54px]'>
+    <footer className='dark:bg-customSecondary-900 bg-gray-100 md:pb-0 pb-[54px]'>
       <div className="container px-4 mx-auto lg:flex-row flex-col py-6 md:flex hidden">
         <div className='flex-1 px-2 md:mb-0 mb-4'>
           <Link to="/" className='mb-4 block'>

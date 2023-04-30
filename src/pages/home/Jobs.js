@@ -6,10 +6,10 @@ import JobsData from '../../data/JobsData';
 
 function HomeJobs() {
     return (
-        <div className="container mx-auto px-4 mb-8">
+        <div className="container mx-auto mb-8">
             <h2 className='text-3xl dark:text-white text-black font-semibold mb-8 md:text-left text-center'>ÇALIŞMALARIM</h2>
 
-            <Swiper spaceBetween={30} loop={true} pagination={{ clickable: true }} autoplay={{ delay: 3000 }} modules={[Autoplay, Pagination]} className='!pt-4 !pb-16'
+            <Swiper spaceBetween={30} loop={true} pagination={{ clickable: true }} autoplay={{ delay: 3000 }} modules={[Autoplay, Pagination]} className='!pt-4 !pb-16 !px-2'
                 breakpoints={{
                     0: {
                         slidesPerView: 2,

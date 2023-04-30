@@ -42,7 +42,7 @@ function Banner() {
             }
           </ul>
           <Link to='/hakkimda' className='flex items-center ml-auto dark:bg-yellow-400 bg-violet-700 dark:hover:bg-yellow-300 hover:bg-violet-600 md:rounded-3xl rounded-md px-6 py-3
-          md:w-fit w-full dark:text-black text-white justify-center transition-all my-4 min-w-fit font-semibold shadow-customMd dark:shadow-yellow-400 shadow-violet-700'>Devamını Oku <AiOutlineRight className='ml-4' /></Link>
+          md:w-fit w-full dark:text-black text-white justify-center transition-all my-4 min-w-fit font-semibold shadow-customMd dark:shadow-yellow-400 shadow-violet-700'>Daha Fazla Bilgi <AiOutlineRight className='ml-4' /></Link>
         </div>
       </div>
     </div>
