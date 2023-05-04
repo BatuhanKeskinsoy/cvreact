@@ -5,7 +5,7 @@ import ExperiencesData from '../../data/ExperiencesData';
 var currentYear = new Date().getFullYear();
 var currentMonth = new Date().getMonth() + 1;
 
-function Experiences() {
+function HomeExperiences() {
     return (
         <div className="container mx-auto px-4 mb-8">
             <h2 className='text-3xl dark:text-white text-black font-semibold mb-8 md:text-left text-center'>DENEYİMLERİM</h2>
@@ -22,4 +22,4 @@ function Experiences() {
     )
 }
 
-export default Experiences
+export default HomeExperiences

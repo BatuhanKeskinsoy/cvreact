@@ -11,6 +11,7 @@ import { Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <div className="dark:bg-customPrimary-900 bg-white min-h-screen">
+    <div className="fixed md:-right-64 md:-top-44 -right-16 -top-0 md:w-[35vw] md:h-[35vw] w-44 h-44 rounded-full dark:opacity-10 dark:bg-yellow-400 bg-gray-100"></div>
       <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>

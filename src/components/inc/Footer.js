@@ -76,7 +76,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex md:hidden items-center fixed bottom-0 left-0 w-full z-10 dark:bg-customSecondary-900 bg-white shadow-customLg ">
+      <div className="flex md:hidden items-center fixed bottom-0 left-0 w-full z-10 dark:bg-customSecondary-900 bg-white shadow-customLg">
         {
           LinksData.map((HeaderLink, key) => {
             return (

@@ -83,7 +83,7 @@ footer ul li a.active svg{
   }
 }
 
-.parallax-effect-img {
+.parallax-effect-custom {
   transform-style: preserve-3d;  
 }
 
@@ -93,6 +93,10 @@ footer ul li a.active svg{
 
 .inner-element-experience {
   transform: translateZ(50px) scale(0.6);
+}
+
+.inner-element-button {
+  transform: translateZ(20px) scale(1.0);
 }
 
 .invert-custom-white{

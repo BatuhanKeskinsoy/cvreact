@@ -10,9 +10,8 @@ import Tilt from 'react-parallax-tilt';
 function Banner() {
   return (
     <div className='container mx-auto flex md:flex-row flex-col w-100 px-4 md:px-0 md:pt-20 pt-8'>
-      <div className="fixed md:-right-64 md:-top-44 -right-16 -top-0 md:w-[35vw] md:h-[35vw] w-44 h-44 rounded-full dark:opacity-10 dark:bg-yellow-400 bg-gray-100"></div>
       <div className='md:w-1/3 relative z-10'>
-        <Tilt perspective={1000} className='parallax-effect-img'>
+        <Tilt perspective={1000} className='parallax-effect-custom'>
           <div className="xl:h-96 xl:w-96 lg:h-80 lg:w-80 h-60 w-60 absolute top-0 left-0 dark:opacity-10 dark:bg-yellow-400 bg-gray-100 rounded-full -z-10 flex items-center justify-center"></div>
           <img src={aboutPhoto} alt="" className='w-full h-fit block rounded-full inner-element drop-shadow-2xl' />
         </Tilt>
