@@ -10,7 +10,6 @@ import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <>
       <div className="dark:bg-customPrimary-900 bg-white min-h-screen">
         <Header />
         <Routes>
@@ -22,7 +21,6 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </>
   )
 }
 
