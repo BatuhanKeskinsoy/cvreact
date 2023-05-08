@@ -13,7 +13,13 @@ function HomeExperiences() {
                 {
                     ExperiencesData.map((ExperiencesData, key) => {
                         return (
-                            <ExperienceItem name={ExperiencesData.name} image={ExperiencesData.image} startTime={ExperiencesData.startTime} key={key} currentYear={currentYear} currentMonth={currentMonth} />
+                            <ExperienceItem 
+                            name={ExperiencesData.name} 
+                            image={ExperiencesData.image} 
+                            startTime={ExperiencesData.startTime} 
+                            currentYear={currentYear} 
+                            currentMonth={currentMonth}
+                            key={key} />
                         )
                     })
                 }

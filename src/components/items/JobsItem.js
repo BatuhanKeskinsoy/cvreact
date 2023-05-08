@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { FaRegEye } from 'react-icons/fa';
 import 'swiper/css/bundle';
 

@@ -2,9 +2,8 @@ import React from 'react';
 import aboutPhoto from '../../images/photos/about-me2.png';
 import SocialItem from '../../components/items/SocialItem';
 import SocialsData from '../../data/SocialsData';
-import { Link } from 'react-router-dom';
-import { AiOutlineRight } from 'react-icons/ai';
 import Tilt from 'react-parallax-tilt';
+import { TiltLink } from '../../components/Buttons';
 
 
 function Banner() {
@@ -40,10 +39,15 @@ function Banner() {
               })
             }
           </ul>
-          <Link to='/hakkimda' className='flex items-center ml-auto dark:bg-yellow-400 bg-violet-700 dark:hover:bg-yellow-300 hover:bg-violet-600 md:rounded-3xl rounded-md px-6 py-3
-          md:w-fit w-full dark:text-black text-white justify-center transition-all my-4 min-w-fit font-semibold shadow-customMd dark:shadow-yellow-400 shadow-violet-700'>Daha Fazla Bilgi <AiOutlineRight className='ml-4' /></Link>
+
+          <TiltLink
+            text='DAHA FAZLA BİLGİ'
+            link='/hakkimda'
+            bgColor='dark:bg-yellow-400 bg-violet-700 dark:hover:bg-yellow-300 hover:bg-violet-600'
+            textColor='dark:text-customPrimary-900 text-gray-200' />
         </div>
       </div>
+      <div className="fixed md:-right-64 md:-top-44 -right-16 -top-0 md:w-[35vw] md:h-[35vw] w-44 h-44 rounded-full dark:opacity-10 dark:bg-yellow-400 bg-gray-100 overflow-hidden"></div>
     </div>
   )
 }
