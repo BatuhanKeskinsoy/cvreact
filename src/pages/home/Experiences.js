@@ -11,7 +11,7 @@ function HomeExperiences() {
             <h2 className='text-3xl dark:text-white text-black font-semibold mb-8 md:text-left text-center'>DENEYİMLERİM</h2>
             <div className='flex flex-wrap'>
                 {
-                    ExperiencesData.map((ExperiencesData, key) => {
+                    ExperiencesData.filter(ExperiencesData => ExperiencesData.featured === true).map((ExperiencesData, key) => {
                         return (
                             <ExperienceItem 
                             name={ExperiencesData.name} 

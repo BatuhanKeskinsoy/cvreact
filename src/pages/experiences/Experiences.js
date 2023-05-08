@@ -12,7 +12,7 @@ var currentMonth = new Date().getMonth() + 1;
 function Experiences() {
   return (
     <>
-      <div className='container mx-auto w-100 px-4 md:px-0 md:py-0 min-h-[calc(100vh-134px)] relative'>
+      <div className='container mx-auto w-100 px-4 md:px-0 pb-8 min-h-[calc(100vh-134px)] relative'>
 
         <Tabs>
           <div className="flex justify-between sm:flex-row flex-col items-center">

@@ -101,7 +101,7 @@ footer ul li a.active svg{
 }
 
 .inner-element-button {
-  transform: translateZ(20px) scale(1.0);
+  transform: translateZ(20px);
 }
 
 .invert-custom-white{
