@@ -32,15 +32,17 @@ function TiltButton(props) {
     )
 }
 
-function PrimaryButton(props) {
+function SecondaryButton(props) {
     return (
         <button
-            onClick={props.onClick}
-            onChange={props.onChange}
-            className='flex justify-center items-center text-white h-fit px-6 py-2 bg-customPrimary-900'>
+            btnClick={props.onClick}
+            btnChange={props.onChange}
+            className={`flex justify-center items-center h-fit px-6 py-2 rounded transition-all mx-1 ` +
+                `dark:bg-customSecondary-900 bg-gray-200 dark:hover:bg-yellow-400 ` +
+                `dark:text-gray-200 text-customPrimary-900 dark:hover:text-customPrimary-900`}>
             {props.text}
         </button>
     )
 }
 
-export { TiltLink, TiltButton, PrimaryButton }
+export { TiltLink, TiltButton, SecondaryButton }
