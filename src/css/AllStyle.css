@@ -54,7 +54,7 @@
 
   .tabActiveBtn button{
     @apply dark:!bg-yellow-400 dark:!text-customPrimary-900;
-    @apply !bg-purple-600 !text-gray-200;
+    @apply !bg-violet-600 !text-gray-200;
   }
 }
 

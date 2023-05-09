@@ -51,8 +51,8 @@ function JobsButton(props) {
             btnClick={props.onClick}
             btnChange={props.onChange}
             className={`block sm:text-left text-center h-fit px-6 py-2 rounded transition-all sm:w-[200px] w-fit my-1 whitespace-nowrap overflow-hidden text-ellipsis ` +
-                `dark:bg-customSecondary-900 bg-gray-200 dark:hover:bg-yellow-400 ` +
-                `dark:text-gray-200 text-customPrimary-900 dark:hover:text-customPrimary-900 `}>
+                `dark:bg-customSecondary-900 bg-gray-200 dark:hover:bg-yellow-400 hover:bg-violet-600 ` +
+                `dark:text-gray-200 text-customPrimary-900 dark:hover:text-customPrimary-900 hover:text-gray-200 `}>
             {props.text}
         </button>
     )

@@ -47,7 +47,7 @@ const JobsData = [
         name: 'ZiraatTarımDeposu',
         link: 'https://www.ziraattarimdeposu.com/',
         mobileImg: Ziraattarimdeposu,
-    },
+    }
 ]
 
 export default JobsData
