@@ -3,7 +3,7 @@ import Contact from '../../components/Contact'
 import { SecondaryButton } from '../../components/Buttons';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-import ExperienceItem from '../../components/items/ExperienceItem';
+import { ExperienceItem } from '../../components/items/ExperienceItem';
 import ExperiencesData from '../../data/ExperiencesData';
 
 var currentYear = new Date().getFullYear();

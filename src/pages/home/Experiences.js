@@ -1,5 +1,5 @@
 import React from 'react';
-import ExperienceItem from '../../components/items/ExperienceItem';
+import { ExperienceItem } from '../../components/items/ExperienceItem';
 import ExperiencesData from '../../data/ExperiencesData';
 
 var currentYear = new Date().getFullYear();

@@ -23,4 +23,17 @@ function ExperienceItem(props) {
     )
 }
 
-export default ExperienceItem
+function JobExperiences(props) {
+
+    return (
+        <div title={props.name} className='flex flex-col mx-1 justify-center items-center' >
+            <Tilt  perspective={1000} className='parallax-effect-custom cursor-pointer flex flex-col justify-center items-center'>
+                <div className="h-16 w-16 sm:w-10 sm:h-10 absolute top-0 left-auto right-auto dark:bg-customSecondary-900 bg-gray-100 rounded-full -z-10 flex items-center justify-center"></div>
+                <img src={props.image} alt="{props.name}" className='h-16 w-16 sm:w-10 sm:h-10 sm:min-h-[40px] sm:min-w-[40px] min-w-[64px] min-h-[64px] block inner-element-experience' />
+            </Tilt>
+        </div>
+        
+    )
+}
+
+export { ExperienceItem, JobExperiences }
