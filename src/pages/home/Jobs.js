@@ -34,7 +34,7 @@ function HomeJobs() {
                         return (
 
                             <SwiperSlide className='group cursor-pointer' key={key}>
-                                <JobsItem name={JobsData.name} mobileImg={JobsData.mobileImg} />
+                                <JobsItem name={JobsData.name} mobileImg1={JobsData.mobileImg} />
                             </SwiperSlide>
                         )
                     })

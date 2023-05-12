@@ -1,5 +1,5 @@
 import React from 'react';
-import Contact from '../../components/Contact'
+import Contact from '../../components/Contact';
 import { SecondaryButton } from '../../components/Buttons';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 

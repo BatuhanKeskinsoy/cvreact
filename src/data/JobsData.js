@@ -1,17 +1,76 @@
-import Utatur from '../../src/images/jobs/mobile/utatur.png';
-import Doktoruzman from '../../src/images/jobs/mobile/doktoruzman.png';
-import Goodcarsrental from '../../src/images/jobs/mobile/goodcarsrental.png';
-import Marin44teknik from '../../src/images/jobs/mobile/marin44teknik.png';
-import Avaken from '../../src/images/jobs/mobile/avaken.png';
-import Ziraattarimdeposu from '../../src/images/jobs/mobile/ziraattarimdeposu.png';
-import Qrken from '../../src/images/jobs/mobile/qrken.png';
-import Turkeyinwellness from '../../src/images/jobs/mobile/turkeyinwellness.png';
+/* MOBILE SCREENSHOTS */
+
+import Utatur from '../../src/images/jobs/mobile/utatur/utatur.png';
+import Utatur2 from '../../src/images/jobs/mobile/utatur/utatur2.png';
+import Doktoruzman from '../../src/images/jobs/mobile/doktoruzman/doktoruzman.png';
+import Doktoruzman2 from '../../src/images/jobs/mobile/doktoruzman/doktoruzman2.png';
+import Goodcarsrental from '../../src/images/jobs/mobile/goodcarsrental/goodcarsrental.png';
+import Goodcarsrental2 from '../../src/images/jobs/mobile/goodcarsrental/goodcarsrental2.png';
+import Marin44teknik from '../../src/images/jobs/mobile/marin44teknik/marin44teknik.png';
+import Marin44teknik2 from '../../src/images/jobs/mobile/marin44teknik/marin44teknik2.png';
+import Avaken from '../../src/images/jobs/mobile/avaken/avaken.png';
+import Avaken2 from '../../src/images/jobs/mobile/avaken/avaken2.png';
+import Ziraattarimdeposu from '../../src/images/jobs/mobile/ziraattarimdeposu/ziraattarimdeposu.png';
+import Ziraattarimdeposu2 from '../../src/images/jobs/mobile/ziraattarimdeposu/ziraattarimdeposu2.png';
+import Qrken from '../../src/images/jobs/mobile/qrken/qrken.png';
+import Qrken2 from '../../src/images/jobs/mobile/qrken/qrken2.png';
+import Turkeyinwellness from '../../src/images/jobs/mobile/turkeyinwellness/turkeyinwellness.png';
+import Turkeyinwellness2 from '../../src/images/jobs/mobile/turkeyinwellness/turkeyinwellness2.png';
+
+/* WEB SCREENSHOTS */
+
+import UtaturWeb from '../../src/images/jobs/web/utatur/utatur.png';
+import UtaturWeb2 from '../../src/images/jobs/web/utatur/utatur2.png';
+import UtaturWeb3 from '../../src/images/jobs/web/utatur/utatur3.png';
+import UtaturWeb4 from '../../src/images/jobs/web/utatur/utatur4.png';
+
+import DoktoruzmanWeb from '../../src/images/jobs/web/doktoruzman/doktoruzman.png';
+import DoktoruzmanWeb2 from '../../src/images/jobs/web/doktoruzman/doktoruzman2.png';
+import DoktoruzmanWeb3 from '../../src/images/jobs/web/doktoruzman/doktoruzman3.png';
+import DoktoruzmanWeb4 from '../../src/images/jobs/web/doktoruzman/doktoruzman4.png';
+
+import GoodcarsrentalWeb from '../../src/images/jobs/web/goodcarsrental/goodcarsrental.png';
+import GoodcarsrentalWeb2 from '../../src/images/jobs/web/goodcarsrental/goodcarsrental2.png';
+import GoodcarsrentalWeb3 from '../../src/images/jobs/web/goodcarsrental/goodcarsrental3.png';
+import GoodcarsrentalWeb4 from '../../src/images/jobs/web/goodcarsrental/goodcarsrental4.png';
+
+import Marin44teknikWeb from '../../src/images/jobs/web/marin44teknik/marin44teknik.png';
+import Marin44teknikWeb2 from '../../src/images/jobs/web/marin44teknik/marin44teknik2.png';
+import Marin44teknikWeb3 from '../../src/images/jobs/web/marin44teknik/marin44teknik3.png';
+import Marin44teknikWeb4 from '../../src/images/jobs/web/marin44teknik/marin44teknik4.png';
+
+import AvakenWeb from '../../src/images/jobs/web/avaken/avaken.png';
+import AvakenWeb2 from '../../src/images/jobs/web/avaken/avaken2.png';
+import AvakenWeb3 from '../../src/images/jobs/web/avaken/avaken3.png';
+import AvakenWeb4 from '../../src/images/jobs/web/avaken/avaken4.png';
+
+import ZiraattarimdeposuWeb from '../../src/images/jobs/web/ziraattarimdeposu/ziraattarimdeposu.png';
+import ZiraattarimdeposuWeb2 from '../../src/images/jobs/web/ziraattarimdeposu/ziraattarimdeposu2.png';
+import ZiraattarimdeposuWeb3 from '../../src/images/jobs/web/ziraattarimdeposu/ziraattarimdeposu3.png';
+import ZiraattarimdeposuWeb4 from '../../src/images/jobs/web/ziraattarimdeposu/ziraattarimdeposu4.png';
+
+import QrkenWeb from '../../src/images/jobs/web/qrken/qrken.png';
+import QrkenWeb2 from '../../src/images/jobs/web/qrken/qrken2.png';
+import QrkenWeb3 from '../../src/images/jobs/web/qrken/qrken3.png';
+import QrkenWeb4 from '../../src/images/jobs/web/qrken/qrken4.png';
+
+import TurkeyinwellnessWeb from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness.png';
+import TurkeyinwellnessWeb2 from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness2.png';
+import TurkeyinwellnessWeb3 from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness3.png';
+import TurkeyinwellnessWeb4 from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness4.png';
+
 
 const JobsData = [
     {
+        id: 1,
         name: 'DoktorUzman',
         link: 'https://www.doktoruzman.com/',
         mobileImg: Doktoruzman,
+        mobileImg2: Doktoruzman2,
+        webImg: DoktoruzmanWeb,
+        webImg2: DoktoruzmanWeb2,
+        webImg3: DoktoruzmanWeb3,
+        webImg4: DoktoruzmanWeb4,
         experiences: [
             'HTML5',
             'CSS3',
@@ -28,9 +87,15 @@ const JobsData = [
         ],
     },
     {
+        id: 2,
         name: 'Utatur',
         link: 'https://www.utatur.com/',
         mobileImg: Utatur,
+        mobileImg2: Utatur2,
+        webImg: UtaturWeb,
+        webImg2: UtaturWeb2,
+        webImg3: UtaturWeb3,
+        webImg4: UtaturWeb4,
         experiences: [
             'HTML5',
             'CSS3',
@@ -45,9 +110,15 @@ const JobsData = [
         ],
     },
     {
+        id: 3,
         name: 'Avaken',
         link: 'https://www.avaken.com/',
         mobileImg: Avaken,
+        mobileImg2: Avaken2,
+        webImg: AvakenWeb,
+        webImg2: AvakenWeb2,
+        webImg3: AvakenWeb3,
+        webImg4: AvakenWeb4,
         experiences: [
             'HTML5',
             'CSS3',
@@ -60,9 +131,15 @@ const JobsData = [
         ],
     },
     {
+        id: 4,
         name: 'QRKen',
         link: 'https://www.qrken.com/',
         mobileImg: Qrken,
+        mobileImg2: Qrken2,
+        webImg: QrkenWeb,
+        webImg2: QrkenWeb2,
+        webImg3: QrkenWeb3,
+        webImg4: QrkenWeb4,
         experiences: [
             'HTML5',
             'CSS3',
@@ -73,9 +150,15 @@ const JobsData = [
         ],
     },
     {
+        id: 5,
         name: 'GoodCarsRental',
         link: 'https://www.goodcarsrental.com/',
         mobileImg: Goodcarsrental,
+        mobileImg2: Goodcarsrental2,
+        webImg: GoodcarsrentalWeb,
+        webImg2: GoodcarsrentalWeb2,
+        webImg3: GoodcarsrentalWeb3,
+        webImg4: GoodcarsrentalWeb4,
         experiences: [
             'HTML5',
             'CSS3',
@@ -88,9 +171,15 @@ const JobsData = [
         ],
     },
     {
+        id: 6,
         name: 'Marin44Teknik',
         link: 'https://www.marin44teknik.com.tr/',
         mobileImg: Marin44teknik,
+        mobileImg2: Marin44teknik2,
+        webImg: Marin44teknikWeb,
+        webImg2: Marin44teknikWeb2,
+        webImg3: Marin44teknikWeb3,
+        webImg4: Marin44teknikWeb4,
         experiences: [
             'HTML5',
             'CSS3',
@@ -103,9 +192,15 @@ const JobsData = [
         ],
     },
     {
+        id: 7,
         name: 'TurkeyInWellness',
         link: 'https://www.turkeyinwellness.com/',
         mobileImg: Turkeyinwellness,
+        mobileImg2: Turkeyinwellness2,
+        webImg: TurkeyinwellnessWeb,
+        webImg2: TurkeyinwellnessWeb2,
+        webImg3: TurkeyinwellnessWeb3,
+        webImg4: TurkeyinwellnessWeb4,
         experiences: [
             'HTML5',
             'CSS3',
@@ -118,9 +213,15 @@ const JobsData = [
         ],
     },
     {
+        id: 8,
         name: 'ZiraatTarımDeposu',
         link: 'https://www.ziraattarimdeposu.com/',
         mobileImg: Ziraattarimdeposu,
+        mobileImg2: Ziraattarimdeposu2,
+        webImg: ZiraattarimdeposuWeb,
+        webImg2: ZiraattarimdeposuWeb2,
+        webImg3: ZiraattarimdeposuWeb3,
+        webImg4: ZiraattarimdeposuWeb4,
         experiences: [
             'HTML5',
             'CSS3',
