@@ -10,17 +10,19 @@ import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-      <div className="dark:bg-customPrimary-900 bg-white min-h-screen">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/deneyimlerim" element={<Experiences />}></Route>
-          <Route path="/calismalarim" element={<Jobs />}></Route>
-          <Route path="/hakkimda" element={<About />}></Route>
-          <Route path="/iletisim" element={<Contact />}></Route>
-        </Routes>
-        <Footer />
-      </div>
+    <div className="dark:bg-customPrimary-900 bg-white min-h-screen">
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/deneyimlerim" element={<Experiences />}/>
+        <Route path="/calismalarim" element={<Jobs />}>
+          <Route path="doktoruzman"  />
+        </Route>
+        <Route path="/hakkimda" element={<About />}/>
+        <Route path="/iletisim" element={<Contact />}/>
+      </Routes>
+      <Footer />
+    </div>
   )
 }
 
