@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 @layer base {
-
+  
   @font-face {
     font-family: 'Gemunu Libre';
     src: url(../css/fonts/GemunuLibre/GemunuLibre-Bold.ttf);
@@ -25,15 +25,15 @@
     src: url(../css/fonts/OpenSans/OpenSans-Regular.ttf);
     src: url(../css/fonts/OpenSans/OpenSans-SemiBold.ttf);
   }
-
+  
   html{
     @apply font-open font-medium;
   }
-
+  
   *{
     @apply box-border;
   }
-
+  
   *::-webkit-scrollbar {
     @apply w-1 h-1;
   }
@@ -47,16 +47,22 @@
     @apply dark:bg-yellow-400 bg-violet-700;
     @apply rounded-full;
   }
-
+  
   h1, h2, h3, h4, h5, h6{
     @apply font-gemunu uppercase tracking-widest;
   }
-
+  
   .tabActiveBtn button{
     @apply dark:!bg-yellow-400 dark:!text-customPrimary-900;
     @apply !bg-violet-600 !text-gray-200;
   }
-
+  
+  .JobsLink.active{
+    @apply dark:bg-yellow-400 bg-violet-700;
+    @apply dark:text-black text-white;
+    @apply shadow-customMd dark:shadow-yellow-400 shadow-violet-700;
+  }
+  
 }
 
 header ul li a.active svg,

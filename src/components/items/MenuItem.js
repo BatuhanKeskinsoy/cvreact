@@ -41,7 +41,7 @@ function MenuItem(props) {
                 <NavLink
                     to={props.link}
                     className='py-2 md:py-5 px-2 flex  justify-between items-center active:pl-4 md:active:pl-2 transition-all group'
-                    onClick={props.mobileNavClose}>
+                    onClick={props.mobileNavClose}> 
                     <span className='order-1 md:order-2 uppercase font-gemunu tracking-widest'>{props.name}</span>
                     <Icon className='order-2 md:order-1 md:mr-2 p-2 shadow shadow-gray-400 dark:shadow-gray-600 rounded-full text-4xl transition-all dark:text-white text-customSecondary-900
                             group-active:shadowXl dark:group-active:text-black group-active:text-white dark:group-active:bg-yellow-400 group-active:bg-violet-700
