@@ -27,10 +27,6 @@ function Jobs() {
 
     let jobName = jobURL['jobname'];
 
-    if (jobName === undefined) {
-        jobName = JobsData[0].name.toLowerCase();
-        
-    }
     
     console.log('deneme');
     return (
