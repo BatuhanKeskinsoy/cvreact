@@ -26,7 +26,6 @@ function Jobs() {
     const jobURL = useParams();
 
     let jobName = jobURL['jobname'];
-
     
     console.log('deneme');
     return (

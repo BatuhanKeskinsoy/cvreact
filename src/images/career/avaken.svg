@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="387.882" height="91.059" viewBox="0 0 387.882 91.059">
+  <defs>
+    <clipPath id="clip-avakenDark">
+      <rect width="387.882" height="91.059"/>
+    </clipPath>
+  </defs>
+  <g id="avakenDark" clip-path="url(#clip-avakenDark)">
+    <g id="Group_1" data-name="Group 1">
+      <path id="Path_1" data-name="Path 1" d="M38.234,6.162,71.28,83.7H62.858L38.234,24.841,13.362,83.7H4.939Zm2.984,61.906-6.265-.049L35,61.755l6.264.048Z"/>
+      <path id="Path_2" data-name="Path 2" d="M104.475,87.168,71.181,9.63H79.6l29.033,67.779ZM129.2,9.63h8.323L110.668,72.6l-4.161-8.968Z"/>
+      <path id="Path_3" data-name="Path 3" d="M170.816,6.162,203.864,83.7H195.44l-24.624-58.86L145.945,83.7h-8.423ZM173.8,68.068l-6.265-.049.049-6.264,6.264.048Z"/>
+      <path id="Path_4" data-name="Path 4" d="M216.546,83.7h-7.728V9.63h7.728Zm2.081-42.114L250.584,9.63h10.157L224.325,45.948,263.168,83.7H252.219L218.627,50.9Z"/>
+      <path id="Path_5" data-name="Path 5" d="M266.587,77.111h45.631V83.7H266.637Zm.05-67.481h45.581v6.59H266.637Zm0,32.75h43.748v6.639H266.637Z"/>
+      <path id="Path_6" data-name="Path 6" d="M320.294,7.2l54.6,59.454V9.63h7.729v76.7l-54.6-59.555V83.7h-7.729Z"/>
+    </g>
+  </g>
+</svg>

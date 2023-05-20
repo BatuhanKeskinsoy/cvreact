@@ -6,7 +6,7 @@ import HomeContact from '../pages/home/HomeContact';
 function Home() {
   return (
     <>
-      <Banner />
+      <Banner showMoreButton={true} />
       <hr className='dark:border-customSecondary-900 border-gray-200 border-1 md:my-10 my-6' />
       <Experiences />
       <hr className='dark:border-customSecondary-900 border-gray-200 border-1 md:my-10 my-6' />

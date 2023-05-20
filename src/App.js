@@ -18,8 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/deneyimlerim" element={<Experiences />} />
-        <Route path="/calismalarim" element={<JobsMain />}>
-          <Route index element={<Jobs />} />
+        <Route exact path="/calismalarim" element={<JobsMain />}>
           <Route path=":jobname" element={<Jobs />} />
         </Route>
         <Route path="/hakkimda" element={<About />} />
