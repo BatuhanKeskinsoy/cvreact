@@ -19,7 +19,7 @@ const CareerData = [
     },
     {
         id: 2,
-        name: 'Hane Yazılım Ltd. Şti.',
+        name: 'Hane Yazılım',
         position: 'Frontend Developer',
         logo: HaneYazılım,
         description: 'Frontend Developer olarak görev aldım.',
@@ -49,7 +49,7 @@ const CareerData = [
         logo: Avaken,
         description: 'Frontend Developer olarak görev alıyorum.',
         startTime: 2023,
-        endTime: 'Devam Ediyor',
+        endTime: 'DEVAM EDİYOR',
         experiences: [
             'HTML5',
             'CSS3',

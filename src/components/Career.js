@@ -4,10 +4,10 @@ import CareerItem from './items/CarrierItem';
 
 function Career() {
     return (
-        <div className='flex flex-wrap md:flex-row flex-col'>
+        <div className='flex flex-wrap flex-col-reverse'>
             {
                 CareerData.map((Carrier, key) => {
-                    return <CareerItem name={Carrier.name} logo={Carrier.logo} key={key} />
+                    return <CareerItem name={Carrier.name} startTime={Carrier.startTime} endTime={Carrier.endTime} position={Carrier.position} logo={Carrier.logo} key={key} />
                 })
             }
         </div>
