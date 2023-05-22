@@ -20,9 +20,6 @@ function JobsMain() {
 
                 const jobSlug = JobsData.name.toLowerCase();
 
-                  
-                
-                
                 return (
 
                   <NavLink tabIndex={key} to={jobSlug} key={key} className={

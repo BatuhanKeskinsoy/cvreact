@@ -14,10 +14,6 @@ function Career() {
         <div className='flex flex-wrap flex-col-reverse'>
             {CareerData.map((Career, key) => {
 
-
-                const CarrierExperiences = CareerData.map((ExperienceArray, key) => (
-                    <li key={key}>{ExperienceArray.experiences}</li>
-                ));
                 const isFirstItem = key === CareerData.length - 1;
                 const isActive = key === activeItem;
 
@@ -29,8 +25,7 @@ function Career() {
                         position={Career.position}
                         logo={Career.logo}
                         description={Career.description}
-                        CarrierExperiences={CarrierExperiences}
-
+                        experiences={Career.experiences}
 
                         isFirstItem={isFirstItem}
                         isActive={isActive}
