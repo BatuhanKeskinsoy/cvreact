@@ -6,8 +6,17 @@ function Career() {
     return (
         <div className='flex flex-wrap flex-col-reverse'>
             {
+                
                 CareerData.map((Carrier, key) => {
-                    return <CareerItem name={Carrier.name} startTime={Carrier.startTime} endTime={Carrier.endTime} position={Carrier.position} logo={Carrier.logo} key={key} />
+                    const isFirstItem = key === CareerData.length - 1;
+                    return <CareerItem 
+                    name={Carrier.name} 
+                    startTime={Carrier.startTime} 
+                    endTime={Carrier.endTime} 
+                    position={Carrier.position} 
+                    logo={Carrier.logo} 
+                    isFirstItem={isFirstItem}
+                    key={key} />
                 })
             }
         </div>
