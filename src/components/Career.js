@@ -3,35 +3,45 @@ import CareerData from '../data/CareerData';
 import CareerItem from './items/CarrierItem';
 
 function Career() {
-  const [activeItem, setActiveItem] = useState(CareerData.length - 1);
+    const [activeItem, setActiveItem] = useState(CareerData.length - 1);
 
-  const toggleActiveItem = (key) => {
-    setActiveItem(key);
-  };
+    const toggleActiveItem = (key) => {
+        setActiveItem(key);
+    };
 
-  return (
-    <div className='flex flex-wrap flex-col-reverse'>
-      {CareerData.map((Career, key) => {
-        const isFirstItem = key === CareerData.length - 1;
-        const isActive = key === activeItem;
 
-        return (
-          <CareerItem
-            name={Career.name}
-            startTime={Career.startTime}
-            endTime={Career.endTime}
-            position={Career.position}
-            logo={Career.logo}
-            isFirstItem={isFirstItem}
-            isActive={isActive}
-            toggleActiveItem={toggleActiveItem}
-            key={key}
-            itemKey={key}
-          />
-        );
-      })}
-    </div>
-  );
+    return (
+        <div className='flex flex-wrap flex-col-reverse'>
+            {CareerData.map((Career, key) => {
+
+
+                const CarrierExperiences = CareerData.map((ExperienceArray, key) => (
+                    <li key={key}>{ExperienceArray.experiences}</li>
+                ));
+                const isFirstItem = key === CareerData.length - 1;
+                const isActive = key === activeItem;
+
+                return (
+                    <CareerItem
+                        name={Career.name}
+                        startTime={Career.startTime}
+                        endTime={Career.endTime}
+                        position={Career.position}
+                        logo={Career.logo}
+                        description={Career.description}
+                        CarrierExperiences={CarrierExperiences}
+
+
+                        isFirstItem={isFirstItem}
+                        isActive={isActive}
+                        toggleActiveItem={toggleActiveItem}
+                        key={key}
+                        itemKey={key}
+                    />
+                );
+            })}
+        </div>
+    );
 }
 
 export default Career;

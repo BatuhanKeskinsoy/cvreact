@@ -36,7 +36,10 @@ function CareerItem(props) {
 
       {isActive && (
         <div className='border-t dark:border-customSecondary-900 border-gray-200 py-3 px-6'>
-          <h4 className='pl-2 border-l dark:border-customSecondary-900 border-gray-200'>{props.position}</h4>
+          {props.description}
+          <ul className='flex flex-col'>
+            {props.CarrierExperiences}
+          </ul>
         </div>
       )}
     </div>
