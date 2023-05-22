@@ -1,11 +1,17 @@
-import React, { useState } from 'react';
-import { SlArrowLeft, SlArrowDown } from 'react-icons/sl'
+import React from 'react';
+import { SlArrowLeft, SlArrowDown } from 'react-icons/sl';
 
-function CarrierItem(props) {
-  const [isOpen, setIsOpen] = useState(props.isFirstItem);
+function CareerItem(props) {
+
+  const isActive = props.isActive;
+  const toggleActiveItem = props.toggleActiveItem;
 
   const toggleAccordion = () => {
-    setIsOpen(!isOpen);
+    if (isActive) {
+      toggleActiveItem(null);
+    } else {
+      toggleActiveItem(props.itemKey);
+    }
   };
 
   return (
@@ -17,28 +23,24 @@ function CarrierItem(props) {
             -
             <h4 className='ml-1'>{props.endTime}</h4>
           </div>
-          <h3 className={`text-2xl md:my-0 my-3 transition-all group-hover:dark:text-yellow-400 group-hover:text-violet-600` +
-            `${isOpen ? ' dark:text-yellow-400 text-violet-600' : ''}`}>{props.name}</h3>
+          <h3 className={`text-2xl md:my-0 my-3 transition-all group-hover:dark:text-yellow-400 group-hover:text-violet-600 ${isActive ? 'dark:text-yellow-400 text-violet-600' : ''}`}>{props.name}</h3>
 
         </div>
         <div className="flex md:flex-row flex-col items-center transition-all group-hover:dark:text-yellow-400 group-hover:text-violet-600">
-          <h4 className={`text-md` + `${isOpen ? ' dark:text-yellow-400 text-violet-600' : ''}`}>{props.position}</h4>
-          {isOpen ? 
-          <SlArrowDown className={`text-2xl md:mx-4` + `${isOpen ? ' dark:text-yellow-400 text-violet-600' : ''}`}/> : 
-          <SlArrowLeft className={`text-2xl md:mx-4` + `${isOpen ? ' dark:text-yellow-400 text-violet-600' : ''}`}/> }
+          <h4 className={`text-md ${isActive ? 'dark:text-yellow-400 text-violet-600' : ''}`}>{props.position}</h4>
+          {isActive ? 
+          <SlArrowDown className={`text-2xl md:mx-4 ${isActive ? 'dark:text-yellow-400 text-violet-600' : ''}`}/> : 
+          <SlArrowLeft className={`text-2xl md:mx-4 ${isActive ? 'dark:text-yellow-400 text-violet-600' : ''}`}/> }
         </div>
-        {/* <div className='relative h-full rounded-xl bg-gray-200 p-2 flex items-center justify-center'>
-        <img src={props.logo} alt="" className='h-full w-fit' />
-      </div> */}
       </button>
 
-      {isOpen && (
+      {isActive && (
         <div className='border-t dark:border-customSecondary-900 border-gray-200 py-3 px-6'>
           <h4 className='pl-2 border-l dark:border-customSecondary-900 border-gray-200'>{props.position}</h4>
         </div>
       )}
     </div>
-  )
+  );
 }
 
-export default CarrierItem
+export default CareerItem;

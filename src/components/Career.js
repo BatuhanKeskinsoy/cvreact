@@ -1,26 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CareerData from '../data/CareerData';
 import CareerItem from './items/CarrierItem';
 
 function Career() {
-    return (
-        <div className='flex flex-wrap flex-col-reverse'>
-            {
-                
-                CareerData.map((Carrier, key) => {
-                    const isFirstItem = key === CareerData.length - 1;
-                    return <CareerItem 
-                    name={Carrier.name} 
-                    startTime={Carrier.startTime} 
-                    endTime={Carrier.endTime} 
-                    position={Carrier.position} 
-                    logo={Carrier.logo} 
-                    isFirstItem={isFirstItem}
-                    key={key} />
-                })
-            }
-        </div>
-    )
+  const [activeItem, setActiveItem] = useState(CareerData.length - 1);
+
+  const toggleActiveItem = (key) => {
+    setActiveItem(key);
+  };
+
+  return (
+    <div className='flex flex-wrap flex-col-reverse'>
+      {CareerData.map((Career, key) => {
+        const isFirstItem = key === CareerData.length - 1;
+        const isActive = key === activeItem;
+
+        return (
+          <CareerItem
+            name={Career.name}
+            startTime={Career.startTime}
+            endTime={Career.endTime}
+            position={Career.position}
+            logo={Career.logo}
+            isFirstItem={isFirstItem}
+            isActive={isActive}
+            toggleActiveItem={toggleActiveItem}
+            key={key}
+            itemKey={key}
+          />
+        );
+      })}
+    </div>
+  );
 }
 
-export default Career
+export default Career;
