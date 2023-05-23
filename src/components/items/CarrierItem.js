@@ -42,7 +42,7 @@ function CareerItem(props) {
           <span className='my-4 block text-sm'>Kazandığım Deneyimler :</span>
           <ul className='flex flex-col'>
             {props.experiences.map((experience, key) => (
-              <li key={key} className='flex items-center my-1 text-gray-400 text-sm'><SlArrowRight className='mr-2'/>{experience}</li>
+              <li key={key} className='flex items-center my-1 dark:text-gray-400 text-gray-600 text-sm'><SlArrowRight className='mr-2'/>{experience}</li>
             ))}
           </ul>
 

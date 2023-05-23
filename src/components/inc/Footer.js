@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../../images/logo/logo.svg';
+import JobsData from '../../data/JobsData';
+import JobsItem from '../items/JobsItem';
 import LinksData from '../../data/LinksData';
 import SocialsData from '../../data/SocialsData';
 import SocialItem from '../items/SocialItem';
@@ -30,7 +32,7 @@ function Footer() {
           <hr className='dark:border-customSecondary-600 border-gray-300 my-4' />
           <ul className="flex flex-col h-full w-full dark:text-gray-400 text-gray-600">
             {
-              LinksData.map((HeaderLink, key) => {
+              LinksData.slice(0, 5).map((HeaderLink, key) => {
                 return (
                   <MenuItem isFooter={true} name={HeaderLink.name} link={HeaderLink.link} icon={HeaderLink.icon} key={key} showMobile={HeaderLink.showMobile} order={HeaderLink.orderMobile} />
                 )
@@ -43,9 +45,9 @@ function Footer() {
           <hr className='dark:border-customSecondary-600 border-gray-300 my-4' />
           <ul className="flex flex-col h-full w-full dark:text-gray-400 text-gray-600">
             {
-              LinksData.map((HeaderLink, key) => {
+              JobsData.slice(0, 5).map((JobsLink, key) => {
                 return (
-                  <MenuItem isFooter={true} name={HeaderLink.name} link={HeaderLink.link} icon={HeaderLink.icon} key={key} showMobile={HeaderLink.showMobile} order={HeaderLink.orderMobile} />
+                  <JobsItem isFooter={true} name={JobsLink.name} link={JobsLink.link} icon={JobsLink.icon} key={key} showMobile={JobsLink.showMobile} order={JobsLink.orderMobile} />
                 )
               })
             }
@@ -54,15 +56,9 @@ function Footer() {
         <div className='flex-1 px-2 md:mb-0 mb-4'>
           <span className='dark:text-white text-gray-600 uppercase font-gemunu tracking-widest text-xl'>SON BLOGLARIM</span>
           <hr className='dark:border-customSecondary-600 border-gray-300 my-4' />
-          <ul className="flex flex-col h-full w-full dark:text-gray-400 text-gray-600">
-            {
-              LinksData.map((HeaderLink, key) => {
-                return (
-                  <MenuItem isFooter={true} name={HeaderLink.name} link={HeaderLink.link} icon={HeaderLink.icon} key={key} showMobile={HeaderLink.showMobile} order={HeaderLink.orderMobile} />
-                )
-              })
-            }
-          </ul>
+          <div className="flex flex-col  w-full justify-center  dark:text-gray-400 text-gray-600">
+            <h1>BLOG HAZIRLANIYOR...</h1>
+          </div>
         </div>
       </div>
         <hr className='dark:border-customSecondary-600 border-gray-300 w-full md:block hidden' />
@@ -78,7 +74,7 @@ function Footer() {
       </div>
       <div className="flex md:hidden items-center fixed bottom-0 left-0 w-full z-10 dark:bg-customSecondary-900 bg-white shadow-customLg">
         {
-          LinksData.map((HeaderLink, key) => {
+          LinksData.sort((a, b) => a.orderMobile - b.orderMobile).map((HeaderLink, key) => {
             return (
               <MenuItem isFooterMobile={true} name={HeaderLink.name} link={HeaderLink.link} icon={HeaderLink.icon} key={key} showMobile={HeaderLink.showMobile} order={HeaderLink.orderMobile} />
             )

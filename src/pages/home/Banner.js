@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutPhoto from '../../images/photos/about-me2.png';
+import aboutPhoto from '../../images/photos/about-me.webp';
 import SocialItem from '../../components/items/SocialItem';
 import ExperiencesData from '../../data/ExperiencesData';
 import SocialsData from '../../data/SocialsData';
@@ -45,7 +45,7 @@ function Banner(props) {
           </div>
         </div>
         <div className="flex items-center md:flex-row flex-col">
-          <ul className='flex justify-between md:justify-start w-full overflow-auto max-w-full py-6 md:mr-6 md:pl-3'>
+          <ul className='flex justify-between md:justify-start w-full overflow-auto max-w-full py-4 md:mb-0 mb-3 md:mr-6 md:pl-3'>
             {
               SocialsData.map((Social, key) => {
                 return <SocialItem link={Social.link} icon={Social.icon} key={key} />

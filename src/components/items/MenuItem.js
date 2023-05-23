@@ -4,16 +4,16 @@ import { NavLink } from 'react-router-dom';
 
 function MenuItem(props) {
 
-
     const Icon = props.icon;
+
     if (props.isFooterMobile) {
         return (
             <>
                 {props.showMobile && (
                     <NavLink to={props.link} className={({ isActive }) => isActive ?
                     `dark:text-black text-white dark:bg-yellow-400 bg-violet-700 flex flex-col justify-center items-center flex-auto `+
-                    `text-center w-1/5 py-3 transition-all shadow-customMd dark:shadow-yellow-400 shadow-violet-700 order-${props.order}` :
-                    `dark:text-white text-black flex flex-col justify-center items-center text-center w-1/5 py-3 transition-all flex-auto order-${props.order}`}>
+                    `text-center w-1/5 py-3 transition-all shadow-customMd dark:shadow-yellow-400 shadow-violet-700` :
+                    `dark:text-white text-black flex flex-col justify-center items-center text-center w-1/5 py-3 transition-all flex-auto`}>
                         <Icon className='text-3xl' />
                     </NavLink>
                 )}

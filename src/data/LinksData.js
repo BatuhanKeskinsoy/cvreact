@@ -1,8 +1,10 @@
-import { AiOutlineHome, AiOutlineStar, AiOutlineBulb, AiOutlinePhone, AiOutlineInbox } from 'react-icons/ai';
+import { AiOutlineHome, AiOutlineStar, AiOutlineBulb, AiOutlineBold, AiOutlineInbox } from 'react-icons/ai';
+
 
 const LinksData = [
     
     {
+        id: 1,
         name: "ANASAYFA",
         link: "/",
         icon: AiOutlineHome,
@@ -10,6 +12,7 @@ const LinksData = [
         showMobile: true
     },
     {
+        id: 2,
         name: "DENEYİMLERİM",
         link: "/deneyimlerim",
         icon: AiOutlineStar,
@@ -17,6 +20,7 @@ const LinksData = [
         showMobile: true
     },
     {
+        id: 3,
         name: "ÇALIŞMALARIM",
         link: "/calismalarim/doktoruzman",
         icon: AiOutlineInbox,
@@ -24,17 +28,19 @@ const LinksData = [
         showMobile: true
     },
     {
+        id: 4,
+        name: "BLOG",
+        link: "/blog",
+        icon: AiOutlineBold,
+        orderMobile: 5,
+        showMobile: true
+    },
+    {
+        id: 5,
         name: "HAKKIMDA",
         link: "/hakkimda",
         icon: AiOutlineBulb,
         orderMobile: 4,
-        showMobile: true
-    },
-    {
-        name: "İLETİŞİM",
-        link: "/iletisim",
-        icon: AiOutlinePhone,
-        orderMobile: 5,
         showMobile: true
     }
 ]

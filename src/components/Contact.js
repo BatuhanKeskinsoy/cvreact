@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsWhatsapp, BsTelephone } from 'react-icons/bs';
+import { AiOutlineMail } from 'react-icons/ai';
 import { TiltLink } from './Buttons';
 
 function Contact() {
@@ -15,10 +16,10 @@ function Contact() {
             bgColor='bg-green-500 hover:bg-green-400'
             textColor='text-white' />
         </div>
-        <BsWhatsapp className='text-green-500 text-9xl absolute dark:opacity-20 opacity-30 sm:right-10 sm:top-auto -right-5 -top-5' />
+        <BsWhatsapp className='text-green-400 text-9xl absolute dark:opacity-20 opacity-30 sm:right-10 sm:top-auto -right-5 -top-5' />
       </div>
 
-      <div id='phone' className='dark:bg-customSecondary-900 bg-gray-100 p-8 rounded-xl flex justify-between items-center relative  overflow-hidden flex-1 mx-3'>
+      <div id='phone' className='dark:bg-customSecondary-900 bg-gray-100 p-8 rounded-xl flex justify-between items-center relative  overflow-hidden flex-1 mx-3 mb-4 sm:mb-0'>
         <div className='flex flex-col justify-between min-h-[15vh] w-full'>
           <span className='text-xl dark:text-gray-200 py-3'>Bana Ulaşmak İstiyorsan</span>
           <TiltLink
@@ -28,6 +29,18 @@ function Contact() {
             textColor='dark:text-customPrimary-900 text-gray-200' />
         </div>
         <BsTelephone className='dark:text-yellow-400 text-violet-700 text-9xl absolute dark:opacity-20 opacity-30 sm:right-10 sm:top-auto -right-5 -top-5' />
+      </div>
+
+      <div id='email' className='dark:bg-customSecondary-900 bg-gray-100 p-8 rounded-xl flex justify-between items-center relative  overflow-hidden flex-1 mx-3'>
+        <div className='flex flex-col justify-between min-h-[15vh] w-full'>
+          <span className='text-xl dark:text-gray-200 py-3'>Bana Ulaşmak İstiyorsan</span>
+          <TiltLink
+            text='TIKLA MAİL GÖNDER'
+            link='mailto:batuhankeskinsoy55@gmail.com'
+            bgColor='bg-orange-500 hover:bg-orange-400'
+            textColor='text-white' />
+        </div>
+        <AiOutlineMail className='dark:text-orange-500 text-orange-500 text-9xl absolute dark:opacity-20 opacity-30 sm:right-10 sm:top-auto -right-5 -top-5' />
       </div>
 
     </div>

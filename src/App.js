@@ -6,7 +6,7 @@ import JobsMain from "./pages/jobs/JobsMain";
 import Jobs from "./pages/jobs/Jobs";
 import Experiences from "./pages/experiences/Experiences";
 import About from "./pages/about/About";
-import Contact from "./pages/contact/Contact";
+import Blog from "./pages/blog/Blog";
 import { Routes, Route } from 'react-router-dom';
 import AutoScrollTop from './components/AutoScrollTop';
 
@@ -22,7 +22,7 @@ function App() {
           <Route path=":jobname" element={<Jobs />} />
         </Route>
         <Route path="/hakkimda" element={<About />} />
-        <Route path="/iletisim" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer />
     </div>

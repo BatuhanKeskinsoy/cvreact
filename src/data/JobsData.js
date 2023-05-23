@@ -1,63 +1,63 @@
 /* MOBILE SCREENSHOTS */
 
-import Utatur from '../../src/images/jobs/mobile/utatur/utatur.png';
-import Utatur2 from '../../src/images/jobs/mobile/utatur/utatur2.png';
-import Doktoruzman from '../../src/images/jobs/mobile/doktoruzman/doktoruzman.png';
-import Doktoruzman2 from '../../src/images/jobs/mobile/doktoruzman/doktoruzman2.png';
-import Goodcarsrental from '../../src/images/jobs/mobile/goodcarsrental/goodcarsrental.png';
-import Goodcarsrental2 from '../../src/images/jobs/mobile/goodcarsrental/goodcarsrental2.png';
-import Marin44teknik from '../../src/images/jobs/mobile/marin44teknik/marin44teknik.png';
-import Marin44teknik2 from '../../src/images/jobs/mobile/marin44teknik/marin44teknik2.png';
-import Avaken from '../../src/images/jobs/mobile/avaken/avaken.png';
-import Avaken2 from '../../src/images/jobs/mobile/avaken/avaken2.png';
-import Ziraattarimdeposu from '../../src/images/jobs/mobile/ziraattarimdeposu/ziraattarimdeposu.png';
-import Ziraattarimdeposu2 from '../../src/images/jobs/mobile/ziraattarimdeposu/ziraattarimdeposu2.png';
-import Qrken from '../../src/images/jobs/mobile/qrken/qrken.png';
-import Qrken2 from '../../src/images/jobs/mobile/qrken/qrken2.png';
-import Turkeyinwellness from '../../src/images/jobs/mobile/turkeyinwellness/turkeyinwellness.png';
-import Turkeyinwellness2 from '../../src/images/jobs/mobile/turkeyinwellness/turkeyinwellness2.png';
+import Utatur from '../../src/images/jobs/mobile/utatur/utatur.webp';
+import Utatur2 from '../../src/images/jobs/mobile/utatur/utatur2.webp';
+import Doktoruzman from '../../src/images/jobs/mobile/doktoruzman/doktoruzman.webp';
+import Doktoruzman2 from '../../src/images/jobs/mobile/doktoruzman/doktoruzman2.webp';
+import Goodcarsrental from '../../src/images/jobs/mobile/goodcarsrental/goodcarsrental.webp';
+import Goodcarsrental2 from '../../src/images/jobs/mobile/goodcarsrental/goodcarsrental2.webp';
+import Marin44teknik from '../../src/images/jobs/mobile/marin44teknik/marin44teknik.webp';
+import Marin44teknik2 from '../../src/images/jobs/mobile/marin44teknik/marin44teknik2.webp';
+import Avaken from '../../src/images/jobs/mobile/avaken/avaken.webp';
+import Avaken2 from '../../src/images/jobs/mobile/avaken/avaken2.webp';
+import Ziraattarimdeposu from '../../src/images/jobs/mobile/ziraattarimdeposu/ziraattarimdeposu.webp';
+import Ziraattarimdeposu2 from '../../src/images/jobs/mobile/ziraattarimdeposu/ziraattarimdeposu2.webp';
+import Qrken from '../../src/images/jobs/mobile/qrken/qrken.webp';
+import Qrken2 from '../../src/images/jobs/mobile/qrken/qrken2.webp';
+import Turkeyinwellness from '../../src/images/jobs/mobile/turkeyinwellness/turkeyinwellness.webp';
+import Turkeyinwellness2 from '../../src/images/jobs/mobile/turkeyinwellness/turkeyinwellness2.webp';
 
 /* WEB SCREENSHOTS */
 
-import UtaturWeb from '../../src/images/jobs/web/utatur/utatur.png';
-import UtaturWeb2 from '../../src/images/jobs/web/utatur/utatur2.png';
-import UtaturWeb3 from '../../src/images/jobs/web/utatur/utatur3.png';
-import UtaturWeb4 from '../../src/images/jobs/web/utatur/utatur4.png';
+import UtaturWeb from '../../src/images/jobs/web/utatur/utatur.webp';
+import UtaturWeb2 from '../../src/images/jobs/web/utatur/utatur2.webp';
+import UtaturWeb3 from '../../src/images/jobs/web/utatur/utatur3.webp';
+import UtaturWeb4 from '../../src/images/jobs/web/utatur/utatur4.webp';
 
-import DoktoruzmanWeb from '../../src/images/jobs/web/doktoruzman/doktoruzman.png';
-import DoktoruzmanWeb2 from '../../src/images/jobs/web/doktoruzman/doktoruzman2.png';
-import DoktoruzmanWeb3 from '../../src/images/jobs/web/doktoruzman/doktoruzman3.png';
-import DoktoruzmanWeb4 from '../../src/images/jobs/web/doktoruzman/doktoruzman4.png';
+import DoktoruzmanWeb from '../../src/images/jobs/web/doktoruzman/doktoruzman.webp';
+import DoktoruzmanWeb2 from '../../src/images/jobs/web/doktoruzman/doktoruzman2.webp';
+import DoktoruzmanWeb3 from '../../src/images/jobs/web/doktoruzman/doktoruzman3.webp';
+import DoktoruzmanWeb4 from '../../src/images/jobs/web/doktoruzman/doktoruzman4.webp';
 
-import GoodcarsrentalWeb from '../../src/images/jobs/web/goodcarsrental/goodcarsrental.png';
-import GoodcarsrentalWeb2 from '../../src/images/jobs/web/goodcarsrental/goodcarsrental2.png';
-import GoodcarsrentalWeb3 from '../../src/images/jobs/web/goodcarsrental/goodcarsrental3.png';
-import GoodcarsrentalWeb4 from '../../src/images/jobs/web/goodcarsrental/goodcarsrental4.png';
+import GoodcarsrentalWeb from '../../src/images/jobs/web/goodcarsrental/goodcarsrental.webp';
+import GoodcarsrentalWeb2 from '../../src/images/jobs/web/goodcarsrental/goodcarsrental2.webp';
+import GoodcarsrentalWeb3 from '../../src/images/jobs/web/goodcarsrental/goodcarsrental3.webp';
+import GoodcarsrentalWeb4 from '../../src/images/jobs/web/goodcarsrental/goodcarsrental4.webp';
 
-import Marin44teknikWeb from '../../src/images/jobs/web/marin44teknik/marin44teknik.png';
-import Marin44teknikWeb2 from '../../src/images/jobs/web/marin44teknik/marin44teknik2.png';
-import Marin44teknikWeb3 from '../../src/images/jobs/web/marin44teknik/marin44teknik3.png';
-import Marin44teknikWeb4 from '../../src/images/jobs/web/marin44teknik/marin44teknik4.png';
+import Marin44teknikWeb from '../../src/images/jobs/web/marin44teknik/marin44teknik.webp';
+import Marin44teknikWeb2 from '../../src/images/jobs/web/marin44teknik/marin44teknik2.webp';
+import Marin44teknikWeb3 from '../../src/images/jobs/web/marin44teknik/marin44teknik3.webp';
+import Marin44teknikWeb4 from '../../src/images/jobs/web/marin44teknik/marin44teknik4.webp';
 
-import AvakenWeb from '../../src/images/jobs/web/avaken/avaken.png';
-import AvakenWeb2 from '../../src/images/jobs/web/avaken/avaken2.png';
-import AvakenWeb3 from '../../src/images/jobs/web/avaken/avaken3.png';
-import AvakenWeb4 from '../../src/images/jobs/web/avaken/avaken4.png';
+import AvakenWeb from '../../src/images/jobs/web/avaken/avaken.webp';
+import AvakenWeb2 from '../../src/images/jobs/web/avaken/avaken2.webp';
+import AvakenWeb3 from '../../src/images/jobs/web/avaken/avaken3.webp';
+import AvakenWeb4 from '../../src/images/jobs/web/avaken/avaken4.webp';
 
-import ZiraattarimdeposuWeb from '../../src/images/jobs/web/ziraattarimdeposu/ziraattarimdeposu.png';
-import ZiraattarimdeposuWeb2 from '../../src/images/jobs/web/ziraattarimdeposu/ziraattarimdeposu2.png';
-import ZiraattarimdeposuWeb3 from '../../src/images/jobs/web/ziraattarimdeposu/ziraattarimdeposu3.png';
-import ZiraattarimdeposuWeb4 from '../../src/images/jobs/web/ziraattarimdeposu/ziraattarimdeposu4.png';
+import ZiraattarimdeposuWeb from '../../src/images/jobs/web/ziraattarimdeposu/ziraattarimdeposu.webp';
+import ZiraattarimdeposuWeb2 from '../../src/images/jobs/web/ziraattarimdeposu/ziraattarimdeposu2.webp';
+import ZiraattarimdeposuWeb3 from '../../src/images/jobs/web/ziraattarimdeposu/ziraattarimdeposu3.webp';
+import ZiraattarimdeposuWeb4 from '../../src/images/jobs/web/ziraattarimdeposu/ziraattarimdeposu4.webp';
 
-import QrkenWeb from '../../src/images/jobs/web/qrken/qrken.png';
-import QrkenWeb2 from '../../src/images/jobs/web/qrken/qrken2.png';
-import QrkenWeb3 from '../../src/images/jobs/web/qrken/qrken3.png';
-import QrkenWeb4 from '../../src/images/jobs/web/qrken/qrken4.png';
+import QrkenWeb from '../../src/images/jobs/web/qrken/qrken.webp';
+import QrkenWeb2 from '../../src/images/jobs/web/qrken/qrken2.webp';
+import QrkenWeb3 from '../../src/images/jobs/web/qrken/qrken3.webp';
+import QrkenWeb4 from '../../src/images/jobs/web/qrken/qrken4.webp';
 
-import TurkeyinwellnessWeb from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness.png';
-import TurkeyinwellnessWeb2 from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness2.png';
-import TurkeyinwellnessWeb3 from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness3.png';
-import TurkeyinwellnessWeb4 from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness4.png';
+import TurkeyinwellnessWeb from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness.webp';
+import TurkeyinwellnessWeb2 from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness2.webp';
+import TurkeyinwellnessWeb3 from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness3.webp';
+import TurkeyinwellnessWeb4 from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness4.webp';
 
 
 const JobsData = [
