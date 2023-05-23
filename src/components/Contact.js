@@ -12,7 +12,7 @@ function Contact() {
           <span className='text-xl dark:text-gray-200 py-3'>Bana Ulaşmak İstiyorsan</span>
           <TiltLink
             text='TIKLA MESAJ GÖNDER'
-            link={`https://api.whatsapp.com/send?phone=+905415283633&text=` + `Merhaba, size web sitenizden ulaşıyorum.`}
+            link={`https://api.whatsapp.com/send?phone=+905415283633&text=Merhaba, size web sitenizden ulaşıyorum.`}
             bgColor='bg-green-500 hover:bg-green-400'
             textColor='text-white' />
         </div>
