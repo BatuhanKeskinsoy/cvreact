@@ -6,15 +6,15 @@ import SocialsData from '../../data/SocialsData';
 import MenuItem from '../items/MenuItem';
 import SocialItem from '../items/SocialItem';
 import { useState } from 'react';
-import { HiBars3BottomRight } from 'react-icons/hi2';
+/* import { HiBars3BottomRight } from 'react-icons/hi2'; */
 import { Link } from 'react-router-dom';
 
 function Header() {
   const [isActive, setIsActive] = useState(false);
 
-  const mobileNavToggle = () => {
+  /* const mobileNavToggle = () => {
     setIsActive(current => !current);
-  };
+  }; */
 
   const mobileNavClose = () => {
     setIsActive(false);
