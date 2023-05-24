@@ -17,7 +17,7 @@ function Banner(props) {
       <div className='md:w-1/3 relative z-10'>
         <Tilt perspective={1000} className='parallax-effect-custom'>
           <div className="xl:h-96 xl:w-96 lg:h-80 lg:w-80 h-60 w-60 absolute top-0 left-0 dark:opacity-10 dark:bg-yellow-400 bg-gray-100 rounded-full -z-10 flex items-center justify-center"></div>
-          <img src={aboutPhoto} alt="" className='w-full h-fit block rounded-full inner-element drop-shadow-2xl' />
+          <img src={aboutPhoto} alt="" className='md:max-h-[540px] max-h-[400px] md:max-h mx-auto block rounded-full inner-element drop-shadow-2xl' />
         </Tilt>
       </div>
 

@@ -34,7 +34,7 @@ function Theme() {
     return (
 
 
-        <label className="flex relative items-center cursor-pointer order-2 md:ml-8 md:mr-0 mr-4">
+        <label className="flex relative items-center cursor-pointer order-2 md:ml-8">
                 <input type="checkbox" className="sr-only peer" checked={switchStatus} readOnly />
                 <div
                     onClick={() => {

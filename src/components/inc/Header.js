@@ -21,7 +21,7 @@ function Header() {
   };
 
   return (
-    <header className="h-[80px] md:h-[76px]">
+    <header className="h-[80px] md:h-[76px] z-50">
       <div className="fixed w-full shadow-lg px-4 md:px-0 py-2 md:py-0 dark:bg-customSecondary-900 bg-white z-40">
         <div className="container mx-auto flex items-center justify-between flex-col md:flex-row">
           <div className="flex items-center justify-between w-full md:w-max relative">
@@ -31,12 +31,12 @@ function Header() {
               </Link>
             </div>
             <div className="flex order-2 items-center">
-              <button onClick={mobileNavToggle} className={isActive ? 'dark:bg-yellow-400 bg-violet-700 rounded-full shadow-customMd dark:shadow-yellow-400 shadow-violet-700 order-3' : 'order-3'}>
+              {/* <button onClick={mobileNavToggle} className={isActive ? 'dark:bg-yellow-400 bg-violet-700 rounded-full shadow-customMd dark:shadow-yellow-400 shadow-violet-700 order-3' : 'order-3'}>
                 <HiBars3BottomRight className={isActive ?
                   'text-5xl block md:hidden transition-all p-2 shadow-customSm rounded-full dark:text-black text-white dark:active:bg-yellow-400 active:bg-violet-700 dark:active:text-black active:text-white dark:active:shadow-yellow-400 active:shadow-violet-700' :
                   'text-5xl block md:hidden transition-all p-2 dark:bg-customSecondary-900 bg-white shadow-customSm rounded-full dark:text-white text-black shadow-gray-500'}
                 />
-              </button>
+              </button> */}
               <Theme />
             </div>
           </div>
