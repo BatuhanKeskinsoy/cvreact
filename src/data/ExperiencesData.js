@@ -5,6 +5,7 @@ import AdobeXD from '../images/experiences/xd.svg';
 import GitHub from '../images/experiences/github.svg';
 import Javascript from '../images/experiences/javascript.svg';
 import ReactJS from '../images/experiences/reactjs.svg';
+import NextJS from '../images/experiences/nextjs.svg';
 import TailwindCSS from '../images/experiences/tailwindcss.svg';
 import SASS from '../images/experiences/sass.svg';
 import SEO from '../images/experiences/seo.svg';
@@ -73,6 +74,13 @@ const ExperiencesData = [
         featured : false,
     },
     {
+        name: 'Javascript',
+        startTime: [1, 2020],
+        image: Javascript,
+        type: 'Yazılım',
+        featured : true,
+    },
+    {
         name: 'Facebook',
         startTime: [1, 2023],
         image: Facebook,
@@ -87,16 +95,16 @@ const ExperiencesData = [
         featured : false,
     },
     {
-        name: 'Javascript',
-        startTime: [1, 2023],
-        image: Javascript,
+        name: 'Jquery',
+        startTime: [1, 2020],
+        image: Jquery,
         type: 'Yazılım',
         featured : true,
     },
     {
-        name: 'Jquery',
-        startTime: [1, 2020],
-        image: Jquery,
+        name: 'Tailwind CSS',
+        startTime: [1, 2023],
+        image: TailwindCSS,
         type: 'Yazılım',
         featured : true,
     },
@@ -108,9 +116,9 @@ const ExperiencesData = [
         featured : true,
     },
     {
-        name: 'Tailwind CSS',
-        startTime: [2, 2023],
-        image: TailwindCSS,
+        name: 'Next JS',
+        startTime: [4, 2023],
+        image: NextJS,
         type: 'Yazılım',
         featured : true,
     },

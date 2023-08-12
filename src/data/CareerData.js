@@ -28,8 +28,8 @@ const CareerData = [
         experiences: [
             'HTML5',
             'CSS3',
-            'Bootstrap',
             'Javascript',
+            'Bootstrap',
             'Jquery',
             'Github',
             'SEO',
@@ -53,8 +53,8 @@ const CareerData = [
         experiences: [
             'HTML5',
             'CSS3',
-            'Bootstrap',
             'Javascript',
+            'Bootstrap',
             'Jquery',
             'Github',
             'SEO',

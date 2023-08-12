@@ -22,7 +22,7 @@ const LinksData = [
     {
         id: 3,
         name: "ÇALIŞMALARIM",
-        link: "/calismalarim/doktoruzman",
+        link: "/calismalarim/dietitian",
         icon: AiOutlineInbox,
         orderMobile: 1,
         showMobile: true

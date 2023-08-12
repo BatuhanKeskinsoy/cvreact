@@ -16,6 +16,8 @@ import Qrken from '../../src/images/jobs/mobile/qrken/qrken.webp';
 import Qrken2 from '../../src/images/jobs/mobile/qrken/qrken2.webp';
 import Turkeyinwellness from '../../src/images/jobs/mobile/turkeyinwellness/turkeyinwellness.webp';
 import Turkeyinwellness2 from '../../src/images/jobs/mobile/turkeyinwellness/turkeyinwellness2.webp';
+import Dietitian from '../../src/images/jobs/mobile/dietitian/dietitian.webp';
+import Dietitian2 from '../../src/images/jobs/mobile/dietitian/dietitian2.webp';
 
 /* WEB SCREENSHOTS */
 
@@ -59,10 +61,35 @@ import TurkeyinwellnessWeb2 from '../../src/images/jobs/web/turkeyinwellness/tur
 import TurkeyinwellnessWeb3 from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness3.webp';
 import TurkeyinwellnessWeb4 from '../../src/images/jobs/web/turkeyinwellness/turkeyinwellness4.webp';
 
+import DietitianWeb from '../../src/images/jobs/web/dietitian/dietitian.webp';
+import DietitianWeb2 from '../../src/images/jobs/web/dietitian/dietitian2.webp';
+import DietitianWeb3 from '../../src/images/jobs/web/dietitian/dietitian3.webp';
+import DietitianWeb4 from '../../src/images/jobs/web/dietitian/dietitian4.webp';
 
-const JobsData = [
+
+const JobsData = [,
     {
         id: 1,
+        name: 'Dietitian',
+        link: 'https://dietitian.vercel.app/',
+        mobileImg: Dietitian,
+        mobileImg2: Dietitian2,
+        webImg: DietitianWeb,
+        webImg2: DietitianWeb2,
+        webImg3: DietitianWeb3,
+        webImg4: DietitianWeb4,
+        experiences: [
+            'HTML5',
+            'CSS3',
+            'Tailwind CSS',
+            'Javascript',
+            'Next JS',
+            'SEO',
+            'GitHub',
+        ],
+    },
+    {
+        id: 2,
         name: 'DoktorUzman',
         link: 'https://www.doktoruzman.com/',
         mobileImg: Doktoruzman,
@@ -74,8 +101,8 @@ const JobsData = [
         experiences: [
             'HTML5',
             'CSS3',
-            'Bootstrap',
             'Javascript',
+            'Bootstrap',
             'Jquery',
             'GitHub',
             'SEO',
@@ -87,7 +114,7 @@ const JobsData = [
         ],
     },
     {
-        id: 2,
+        id: 3,
         name: 'Utatur',
         link: 'https://www.utatur.com/',
         mobileImg: Utatur,
@@ -99,8 +126,8 @@ const JobsData = [
         experiences: [
             'HTML5',
             'CSS3',
-            'Bootstrap',
             'Javascript',
+            'Bootstrap',
             'Jquery',
             'GitHub',
             'SEO',
@@ -110,7 +137,7 @@ const JobsData = [
         ],
     },
     {
-        id: 3,
+        id: 4,
         name: 'Avaken',
         link: 'https://www.avaken.com/',
         mobileImg: Avaken,
@@ -122,8 +149,8 @@ const JobsData = [
         experiences: [
             'HTML5',
             'CSS3',
-            'Bootstrap',
             'Javascript',
+            'Bootstrap',
             'Jquery',
             'GitHub',
             'SEO',
@@ -131,7 +158,7 @@ const JobsData = [
         ],
     },
     {
-        id: 4,
+        id: 5,
         name: 'QRKen',
         link: 'https://www.qrken.com/',
         mobileImg: Qrken,
@@ -143,14 +170,14 @@ const JobsData = [
         experiences: [
             'HTML5',
             'CSS3',
-            'Bootstrap',
             'Javascript',
+            'Bootstrap',
             'Jquery',
             'GitHub',
         ],
     },
     {
-        id: 5,
+        id: 6,
         name: 'GoodCarsRental',
         link: 'https://www.goodcarsrental.com/',
         mobileImg: Goodcarsrental,
@@ -162,8 +189,8 @@ const JobsData = [
         experiences: [
             'HTML5',
             'CSS3',
-            'Bootstrap',
             'Javascript',
+            'Bootstrap',
             'Jquery',
             'GitHub',
             'SEO',
@@ -171,7 +198,7 @@ const JobsData = [
         ],
     },
     {
-        id: 6,
+        id: 7,
         name: 'Marin44Teknik',
         link: 'https://www.marin44teknik.com.tr/',
         mobileImg: Marin44teknik,
@@ -183,8 +210,8 @@ const JobsData = [
         experiences: [
             'HTML5',
             'CSS3',
-            'Bootstrap',
             'Javascript',
+            'Bootstrap',
             'Jquery',
             'GitHub',
             'SEO',
@@ -192,7 +219,7 @@ const JobsData = [
         ],
     },
     {
-        id: 7,
+        id: 8,
         name: 'TurkeyInWellness',
         link: 'https://www.turkeyinwellness.com/',
         mobileImg: Turkeyinwellness,
@@ -204,8 +231,8 @@ const JobsData = [
         experiences: [
             'HTML5',
             'CSS3',
-            'Bootstrap',
             'Javascript',
+            'Bootstrap',
             'Jquery',
             'GitHub',
             'SEO',
@@ -213,7 +240,7 @@ const JobsData = [
         ],
     },
     {
-        id: 8,
+        id: 9,
         name: 'ZiraatTarımDeposu',
         link: 'https://www.ziraattarimdeposu.com/',
         mobileImg: Ziraattarimdeposu,
