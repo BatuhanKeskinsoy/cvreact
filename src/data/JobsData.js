@@ -67,7 +67,7 @@ import DietitianWeb3 from '../../src/images/jobs/web/dietitian/dietitian3.webp';
 import DietitianWeb4 from '../../src/images/jobs/web/dietitian/dietitian4.webp';
 
 
-const JobsData = [,
+const JobsData = [
     {
         id: 1,
         name: 'Dietitian',
